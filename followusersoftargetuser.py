@@ -4,8 +4,8 @@ from instagrapi import Client
 
 target_user = input("Enter the target user : ")
 print(f"Target user :{target_user}")
-password = 'goodansh2000'
-username = 'an_us_kha'
+password = 'password'
+username = 'usename'
 client = Client()
 client.login(username, password)
  
